@@ -510,6 +510,7 @@ declare module 'react-native-gesture-handler/DrawerLayout' {
   export type DrawerKeyboardDismissMode = 'none' | 'on-drag';
 
   export interface DrawerLayoutProperties {
+    shouldOpenOffsetX?: number;
     renderNavigationView: (
       progressAnimatedValue: Animated.Value
     ) => React.ReactNode;
